@@ -26,29 +26,44 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Food Ordering Website",
+    title: "Blog Application with Admin Dashboard",
     image: project1,
+    description:
+      "Engineered a MERN stack blog application featuring seamless content creation, comment engagement and robust admin controls through admin dashboard.",
+    technologies: [
+      "React",
+      "NodeJS",
+      "Express",
+      "MongoDB",
+      "Firebase",
+      "Tailwind CSS",
+      "Redux",
+    ],
+  },
+  {
+    title: "Food Ordering Website",
+    image: project2,
     description:
       "A fully functional e-commerce website with features like restaurant listing, ordering cart, and payment processing.",
     technologies: ["HTML", "Tailwind CSS", "React", "Redux"],
   },
   {
     title: "My React Portfolio",
-    image: project2,
+    image: project3,
     description:
       "A website created to showcase myselves, my projects, and my experience in the field of web development.",
     technologies: ["HTML", "CSS", "JavaScript", "React", "Motion UI"],
   },
   {
     title: "Bubble Game",
-    image: project3,
+    image: project4,
     description:
       "A simple game where the player needs to select the correct digit bubbles which is displayed on the header of the body.",
     technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
     title: "Calculator",
-    image: project4,
+    image: project5,
     description:
       "A simple calculator with dark/light mode feature that performs basic arithmetic operations such as addition, subtraction, multiplication, and division.",
     technologies: ["HTML", "CSS", "JavaScript"],
