@@ -1,7 +1,7 @@
-import project1 from "../assets/FoodNetwork.png";
-import project2 from "../assets/Portfolio.png";
-import project3 from "../assets/BubbleGame.png";
-import project4 from "../assets/Calculator.png";
+import project1 from "../assets/BlogMern.png";
+import project2 from "../assets/FoodNetwork.png";
+import project3 from "../assets/Portfolio.png";
+import project4 from "../assets/BubbleGame.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -59,13 +59,6 @@ export const PROJECTS = [
     image: project4,
     description:
       "A simple game where the player needs to select the correct digit bubbles which is displayed on the header of the body.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-  },
-  {
-    title: "Calculator",
-    image: project5,
-    description:
-      "A simple calculator with dark/light mode feature that performs basic arithmetic operations such as addition, subtraction, multiplication, and division.",
     technologies: ["HTML", "CSS", "JavaScript"],
   },
 ];
